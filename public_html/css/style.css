@@ -1,0 +1,213 @@
+@font-face {
+    font-family: 'gillsansmt';
+    src: url('gillsansmt.eot');
+    src: local('gillsansmt'), url('gillsansmt.woff') format('woff'), url('gillsansmt.ttf') format('truetype');
+}
+* {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+body {
+    padding:50px 0;
+    background: url("/img/layout/bg.png") 0 0 repeat-x;
+    background-color: #9F9F9F;
+    font:0.8em/1.6 "arial", sans-serif;
+    color:#000000;
+}
+
+a {color:#000000;}
+a:hover, a:active, a:focus {color:#B10000;}
+h1, h2, h3, h4, h5, h6, address, blockquote, dl, fieldset, ol, p, table, ul {margin:15px 0;}
+h1, h2, h3, h4, h5, h6 {clear:left;}
+
+#wrapper {
+    width:940px;
+    margin: 0 auto;
+    background-color:#FFFFFF;
+    overflow: hidden;
+    position: relative;
+}
+
+#header {
+    position:relative;
+    height:80px;
+    margin:0 20px;
+    padding: 0 20px;
+    overflow:hidden;
+}
+#header #logo {
+    width: 330px;
+    height: 64px; /* 80px (height of header) - 16px (top padding) */
+    padding: 16px 0px 0px 18px;
+    /*background: url("/img/layout/logo.png") 0 0 no-repeat;*/
+    background: url("/img/layout/logo.svg") 0 0 no-repeat;
+}
+#header #logo a {
+    font-size: 30px;
+    font-family: gillsansmt, "Gill Sans MT";
+    font-weight: bold;
+    text-decoration:none;
+}
+#header #logo a span {font-size: 20px;}
+#header #logo a:hover {
+    text-decoration:none;
+    color: #000000;
+}
+
+#header #nav {
+    position:absolute;
+    top:30px;
+    right:20px;
+    margin:0;
+}
+#header #nav span, #subnav span {margin:0 10px;color:#cfcfcf;}
+#header #nav .current, #subnav .current {color:#B10000; font-weight: bold; text-decoration: none;}
+
+#footer {padding: 20px; font-size:85%;}
+#footer p {margin:0;}
+
+/* ----------------------------------------------------------------------------------------------------------
+Page: Homepage
+---------------------------------------------------------------------------------------------------------- */
+
+#promo {
+    margin: 0 20px 20px 20px;
+    position:relative;
+    height:250px;
+    overflow:hidden;
+}
+#promo ul#slider {margin:0;}
+#promo div.caption {
+    width: 310px;
+    height: 50px;
+    position:absolute;
+    top:90px;
+    z-index:999;
+    margin:0;
+    padding: 10px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: gillsansmt, "Gill Sans MT";
+    font-size: 23pt;
+}
+#promo div.caption.left {left:0;}
+#promo div.caption.right {right:0;}
+
+.cols3 {width:940px; padding:0 0 20px 0;background:#e9e9e9;}
+.cols3 .cols3-content {padding: 0 20px; background:url("/img/layout/cols3.gif") 0 0 repeat-y;}
+.cols3 .cols3-bottom {width:940px; height:3px; background:url("/img/layout/cols3-bottom.gif") 0 0 no-repeat; font-size:0; line-height:0;}
+.cols3 .col {float:left; width:290px; margin-right:15px; padding:0 10px 10px 10px;}
+.cols3 .col.last {margin-right:0;}
+.cols3 .col h2 {
+    background:#B10000;
+    margin:0 0 10px 0;
+    padding:7px 10px;
+    /*font-family: "Gill Sans MT";*/
+    font-size:15pt;
+}
+.cols3 .col h2 a {text-decoration:none;color:#FFFFFF;}
+.cols3 .col h2 a:hover {text-decoration:underline;}
+.cols3 .col p {margin:0;}
+.cols3 .col img {margin-bottom:10px;}
+.cols3 .col ul {margin:10px 0 10px 10px;}
+.cols3 .col ul li {padding-left:15px;background:url("/img/layout/ul.gif") 0 7px no-repeat;}
+
+/* ----------------------------------------------------------------------------------------------------------
+Page: Other pages
+---------------------------------------------------------------------------------------------------------- */
+#title {
+    margin:0;
+    padding:27px 20px;
+    font:270%/1 "arial",sans-serif;
+    letter-spacing:-1px;
+    border-top:5px solid #B10000;
+    border-bottom:1px solid #ddd;
+    color:#000;
+}
+#subnav {margin:0; padding:15px 20px;}
+.content {width:940px;padding:20px 0 20px 0;background:#e9e9e9;}
+
+.content .content-in {padding:20px 40px; background:url("/img/layout/content.gif") 0 0 repeat-y;}
+.content .content-bottom {width:940px; height:3px; background:url("/img/layout/content-bottom.gif") 0 0 no-repeat; margin-top:-1px;}
+.content .perex {border-bottom:1px solid #ddd; font-size:170%;}
+.content .perex p {margin-top: 0;}
+
+.content .minigallery {
+    width: 860px;
+    height: 140px;
+    padding:14px 9px;
+    background:#f9f9f9;
+    border:1px solid #cfcfcf;
+}
+.content .minigallery a div {
+    width: 156px;
+    height:110px;
+    margin: 0 6px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    float:left;
+}
+
+.content .col50 {float:left; width:420px;}
+.content ul {margin:15px 25px;}
+.content ul ul {margin:0 0 0 25px;}
+.content ul li, .content ul ul li {padding-left:15px; background:url("/img/layout/ul.gif") 0 7px no-repeat;}
+
+.content table {margin:15px 0; border-collapse:collapse; border:3px solid #cfcfcf; text-align:center; margin: 0 auto;}
+.content table th {font-weight: bold; color:#B10000; text-align:center;}
+.content table th, .content table td {padding:7px 10px;border:1px solid #dfdfdf;}
+
+.content dt {color:#B10000;font-weight:bold;}
+.content dd {margin-left:50px; margin-bottom:15px;}
+.content h1, .content h2 {font-size:200%;}
+.content h3 {font-size:160%;}
+.content h4 {font-size:120%;}
+.content h5, h6 {font-size:100%;}
+
+.content table tr:nth-child(odd){
+  background-color:#f9f9f9;
+}
+
+.galleryWrapper {
+    margin: 15px 0;
+    overflow:hidden;
+}
+.galleryWrapper a {
+    display:inline-block;
+    width: 191px;
+    height: 216px;
+    overflow:hidden;
+    float: left;
+    margin:10px 11px 15px 11px;
+    font-size: 9pt;
+    line-height: 11pt;
+}
+.galleryWrapper .photo {
+    float:left;
+    width:191px;
+    height:191px;
+    background-size:cover;
+    border-radius:5px 5px 5px 5px;
+    border: 1px solid #ddd;
+}
+.galleryWrapper .itemName{
+    width:191px;
+    font-size: 9pt;
+    padding: 4px 0 4px 5px;
+    float:left;
+    border-radius:0 0 5px 5px; border-left: 1px solid #ddd; border-right: 1px solid #ddd; border-bottom: 1px solid #ddd;
+}
+
+/* ----------------------------------------------------------------------------------------------------------
+Others
+---------------------------------------------------------------------------------------------------------- */
+img.f-right {margin-left:20px;}
+img.f-left {margin-right:20px;}
+.error {padding-left: 10px; color: red;}
+.input {padding:5px; background:url("/img/layout/input.gif") 0 0 no-repeat; font:100%/1 "arial",sans-serif;border:1px solid #bfbfbf;}
+.smaller {font-size:85%;}
+.block {display:block;}
+.input-submit {padding:5px; font:bold 100%/1 "arial",sans-serif;border:1px solid #C10000; border-right:1px solid #970000; border-bottom:1px solid #970000; background:#B10000; color:#FFFFFF; cursor: pointer;}
+.line-through{text-decoration:line-through;}

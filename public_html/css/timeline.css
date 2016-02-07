@@ -1,0 +1,54 @@
+.line{
+  height:60%;
+  position: absolute;
+  background:#e2e2e2;
+  left:50%; 
+  width:2px;
+  margin-left:-1px; /* make it center */
+  top:365px;
+  z-index:1000;
+}
+ul .timeline {
+  width: 100%; /* total width and plus 20px for triangles */
+  list-style:none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.timeline > li{
+  width:368px;
+  background:#e2e2e2!important;
+  
+  position: relative; /* important to hold the absolute element triangles */
+  margin:0px 0px 10px;
+  padding: 10px;
+}
+
+.timeline > li:before{
+  border:7px solid;
+  content:'';
+  display: block;
+  position: absolute;
+}
+.timeline > li:nth-child(even){
+  float:right;
+  clear:right;
+}
+.timeline > li:nth-child(odd){
+  float:left;
+  clear:left;
+}
+
+.timeline > li:nth-child(even):before{
+  /* #e2e2e2 same as li background */
+  border-color:#fff #e2e2e2 #fff #fff;
+  right:100%;
+  top:10px; /* you can adjust */
+}
+
+.timeline > li:nth-child(odd):before{
+  /* #e2e2e2 same as li background */
+  border-color:#fff #fff #fff #e2e2e2;
+  left:100%;
+  top:10px; /* you can adjust */
+}
