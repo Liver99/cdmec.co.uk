@@ -6,3 +6,5 @@
 */cache/*
 !*/cache/index.html
 !*/cache/.htaccess
+
+/CodeIgniter_application/config/facebook.php
