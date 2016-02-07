@@ -5,14 +5,14 @@ CodeIgniter 2.1.4
 * /about/history -- Complete history timeline with photos. ----------------------------------This page is hidden from navigation, will complete at a later date
 
 * /about/committee -- Add committee pictures:
-                        David Thame
-                        Paul Middleton
-                        Danny Colquhoun
-                        Mike Pinder
-                        Paul Harrison
-                        Ralf Meanley
-                        Dave Whiting
-                        Dave Darton
+  * David Thame
+  * Paul Middleton
+  * Danny Colquhoun
+  * Mike Pinder
+  * Paul Harrison
+  * Ralf Meanley
+  * Dave Whiting
+  * Dave Darton
 
 * /railway -- Finish general overview on the 3 railways with photos
 * /railway/raised-track -- loco photos & descriptions
