@@ -42,6 +42,10 @@
         <p>Last updated at <b>2016-02-05 18:33:23</b>. Availability may have changed since last update. Please contact us for more information.</p>
         <p>All monies raised are are for club funds which go in to the running and improvement of the clubs facilities.</p>
 
+        <h2>How to book</h2>
+        <p>The booking form can be downloaded <a href="http://chingford-model-engineering.com/files/Party_Booking_Form_2016.docx" target="_blank">here</a> as a Microsoft Word .docx file.</p>
+        <p>Any queries or bookings can be made by emailing the booking form to <a href="mailto:parties@chingford-model-engineering.com" target="_top">parties@chingford-model-engineering.com</a>.</p>
+
         <h2>Photogallery</h2>
 
         <div class="minigallery box">
