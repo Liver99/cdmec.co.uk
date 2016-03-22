@@ -44,7 +44,7 @@
 
         <h2>How to book</h2>
         <p>The booking form can be downloaded <a href="http://chingford-model-engineering.com/files/Party_Booking_Form_2016.docx" target="_blank">here</a> as a Microsoft Word .docx file.</p>
-        <p>Any queries or bookings can be made by emailing the booking form to <a href="mailto:parties@chingford-model-engineering.com" target="_top">parties@chingford-model-engineering.com</a>.</p>
+        <p>Any queries or bookings can be made by emailing the booking form to <a href="mailto:parties@cdmec.co.uk" target="_top">parties@cdmec.co.uk</a>.</p>
 
         <h2>Photogallery</h2>
 

@@ -47,7 +47,7 @@ class Contact extends MY_Controller {
 
             $this->load->library('email');
             $this->email->from($this->input->post('email'), $this->input->post('name'));
-            $this->email->to('contact@chingford-model-engineering.com');
+            $this->email->to('contact@cdmec.co.uk');
             $this->email->subject("Contact form response: ".$this->input->post('subject'));
             $this->email->message($this->input->post('message'));
             $this->email->send();

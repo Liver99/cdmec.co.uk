@@ -13,7 +13,7 @@
         <p>You will be able to contact club members who are to be found working at the club track on Sunday mornings (and Wednesday Evenings between May and the end of August).</p>
         <p>The Club Track &amp; Workshop - Ridgeway Park, Peel Close, Off Old Church Road, Chingford, London, E4 6XU</p>
         <p>Winter Wednesday Meetings - St. Edmunds Church Hall, at the junction of Chingford Mount Road and Larkswood Road, Chingford.</p>
-        
+
         <a name="form"></a>
         <h2>Contact form</h2>
         <?php if (isset($message)) echo $message; ?>
@@ -40,7 +40,7 @@
 
         <a name="email"></a>
         <h2>Email</h2>
-        <p>If contact forms aren't your thing, feel free to email us direct: <a href="mailto:contact@chingford-model-engineering.com" target="_top">contact@chingford-model-engineering.com</a></p>
+        <p>If contact forms aren't your thing, feel free to email us direct: <a href="mailto:contact@cdmec.co.uk" target="_top">contact@cdmec.co.uk</a></p>
 
         <a name="facebook"></a>
         <h2>Facebook</h2>
