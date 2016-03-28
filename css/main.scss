@@ -44,7 +44,7 @@ $on-laptop:        800px;
 }
 @import "bootstrap", "navbar";
 body {
-  background: url("/images/bg.png") 0 0 repeat-x;
+  background: $body-bg url("/images/bg.png") 0 0 repeat-x;
   @media (min-width: $screen-sm-min) {
     padding: 50px 0;
   }

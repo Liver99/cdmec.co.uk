@@ -1,0 +1,30 @@
+{% capture location %}{{ page.url | remove_first:'/' | split:'/' | first }}{% endcapture %}
+<nav class="navbar">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="{{ site.baseurl }}/" title="Chingford &amp; District Model Engineering Club">
+        <img alt="Logo" src="/images/logo_mobile@2x.png" class="visible-xs" height="50px">
+        <img alt="Logo" src="/images/logo_mobile@2x.png" class="visible-sm" height="45px" vspace="2">
+        <img alt="Logo" src="/images/logo_mobile@2x.png" class="visible-md" height="50px">
+        <img alt="Logo" src="/images/logo@2x.png" class="visible-lg" height="50px">
+      </a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li {% if location == '' %} class="active" {% endif %}><a href="{{ site.baseurl }}/">Home</a></li>
+        <li {% if location == 'about' %} class="active" {% endif %}><a href="{{ site.baseurl }}/about">About</a></li>
+        <li {% if location == 'railway' %} class="active" {% endif %}><a href="{{ site.baseurl }}/railway">Railway</a></li>
+        <li {% if location == 'meetings' %} class="active" {% endif %}><a href="{{ site.baseurl }}/meetings">Meetings</a></li>
+        <li {% if location == 'parties' %} class="active" {% endif %}><a href="{{ site.baseurl }}/parties">Parties</a></li>
+        <li {% if location == 'gallery' %} class="active" {% endif %}><a href="{{ site.baseurl }}/gallery">Gallery</a></li>
+        <li {% if location == 'contact' %} class="active" {% endif %}><a href="{{ site.baseurl }}/contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
