@@ -4,7 +4,7 @@
 @charset "utf-8";
 
 
-
+/*
 // Our variables
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
@@ -27,7 +27,7 @@ $content-width:    800px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
-
+*/
 
 
 // Use media queries like this:
@@ -37,15 +37,15 @@ $on-laptop:        800px;
 //         padding-left: $spacing-unit / 2;
 //     }
 // }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
+@font-face {
+    font-family: 'gillsansmt';
+    src: url('../fonts/gillsansmt.eot');
+    src: local('../fonts/gillsansmt'), url('../fonts/gillsansmt.woff') format('woff'), url('../fonts/gillsansmt.ttf') format('truetype');
 }
-
-
-
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "bootstrap"
-;
+@import "bootstrap", "navbar";
+body {
+  background: url("/images/bg.png") 0 0 repeat-x;
+  @media (min-width: $screen-sm-min) {
+    padding: 50px 0;
+  }
+}
