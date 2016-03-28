@@ -42,10 +42,14 @@ $on-laptop:        800px;
     src: url('../fonts/gillsansmt.eot');
     src: local('../fonts/gillsansmt'), url('../fonts/gillsansmt.woff') format('woff'), url('../fonts/gillsansmt.ttf') format('truetype');
 }
-@import "bootstrap", "navbar";
+@import "bootstrap", "navbar", "page";
+
 body {
   background: $body-bg url("/images/bg.png") 0 0 repeat-x;
   @media (min-width: $screen-sm-min) {
     padding: 50px 0;
   }
+}
+.container{
+  background-color:#fff;
 }

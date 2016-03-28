@@ -1,0 +1,40 @@
+.row {
+  .page-header {
+    margin: 0;
+    padding-bottom: 20px;
+    font: 270%/1 "arial",sans-serif;
+    letter-spacing: -1px;
+    border-top: 5px solid #B10000;
+    border-bottom: 1px solid #ddd;
+    color: #000;
+  }
+
+  .sub-nav {
+    padding-top: 15px;
+    padding-bottom:15px;
+    border-bottom: 1px solid #ddd;
+    font-family: gillsansmt, "Gill Sans MT";
+
+    > a {
+      color: #000000;
+      text-decoration:underline;
+      padding-right:$navbar-padding-horizontal;
+
+
+      &:hover,
+      &:focus {
+        color:$brand-primary;
+      }
+
+      &.active {
+        &,
+        &:hover,
+        &:focus {
+          text-decoration:none;
+          color:$brand-primary;
+          font-weight:bold;
+        }
+      }
+    }
+  }
+}

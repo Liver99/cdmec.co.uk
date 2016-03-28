@@ -1,14 +1,34 @@
 ---
 layout: default
 ---
-<article class="post">
+<div class="row">
+  <div class="col-xs-12 page-header">
+    <h1>{{ page.title }}</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12 sub-nav">
+    {% comment %}Get array of url{% endcomment %}
+    {% assign top-page = page.url | remove_first:'/' | split:'/' %}
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
-
-  <div class="post-content">
+    {% for nav in site.data.nav %}
+      {% assign nav-top-page = nav.href | remove_first:'/' | split:'/' %}
+      {% if top-page.first == nav-top-page.first %}
+        {% if nav.subcategories != null %}
+          {% for subcategory in nav.subcategories %}
+            {% assign sub-nav-top-page = subcategory.subhref | remove_first:'/' | split:'/' %}
+            <a {% if top-page.last == sub-nav-top-page.last %} class="active" {% endif %} href="{{ site.baseurl }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a>
+          {% endfor %}
+        {% else %}
+          &nbsp;
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12 page-content">
     {{ content }}
   </div>
-
-</article>
+</div>
+<article class="post">
