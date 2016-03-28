@@ -1,4 +1,4 @@
-{% capture location %}{{ page.url | remove_first:'/' | split:'/' | first }}{% endcapture %}
+{% assign top-page = page.url | remove_first:'/' | split:'/' | first %}
 <nav class="navbar">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -17,13 +17,10 @@
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
-        <li {% if location == '' %} class="active" {% endif %}><a href="{{ site.baseurl }}/">Home</a></li>
-        <li {% if location == 'about' %} class="active" {% endif %}><a href="{{ site.baseurl }}/about">About</a></li>
-        <li {% if location == 'railway' %} class="active" {% endif %}><a href="{{ site.baseurl }}/railway">Railway</a></li>
-        <li {% if location == 'meetings' %} class="active" {% endif %}><a href="{{ site.baseurl }}/meetings">Meetings</a></li>
-        <li {% if location == 'parties' %} class="active" {% endif %}><a href="{{ site.baseurl }}/parties">Parties</a></li>
-        <li {% if location == 'gallery' %} class="active" {% endif %}><a href="{{ site.baseurl }}/gallery">Gallery</a></li>
-        <li {% if location == 'contact' %} class="active" {% endif %}><a href="{{ site.baseurl }}/contact">Contact</a></li>
+        {% for nav in site.data.nav %}
+          {% assign nav-top-page = nav.href | remove_first:'/' | split:'/' | first %}
+          <li {% if top-page == nav-top-page %} class="active" {% endif %}><a href="{{ site.baseurl }}{{ nav.href }}">{{ nav.title }}</a></li>
+        {% endfor %}
       </ul>
     </div>
   </div>

@@ -1,0 +1,32 @@
+- title: "Home"
+  href: "/"
+
+- title: "About"
+  href: "/about/"
+  subcategories:
+    - subtitle: "Membership"
+      subhref: "/about/membership"
+    - subtitle: "Committee"
+      subhref: "/about/committee"
+
+- title: "Railway"
+  href: "/railway/"
+  subcategories:
+    - subtitle: "Public Running"
+      subhref: "/railway/public-running/"
+    - subtitle: "Raised Track"
+      subhref: "/railway/raised-track/"
+    - subtitle: "Ground Level Track"
+      subhref: "/railway/ground-level-track/"
+
+- title: "Meetings"
+  href: "/meetings/"
+
+- title: "Parties"
+  href: "/parties/"
+
+- title: "Gallery"
+  href: "/gallery/"
+
+- title: "Contact"
+  href: "/contact/"
