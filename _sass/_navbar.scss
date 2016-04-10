@@ -6,6 +6,9 @@
 
   .navbar-brand {
     padding-right:0px;
+    @media (max-width: $screen-xs-max) {
+      padding-left:0px;
+    }
   }
 
   .navbar-text {
