@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Raised Track
-permalink: /railway/raised-track
+permalink: /railway/raised-track/
 ---
 
 <div class="perex">

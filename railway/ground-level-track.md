@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Ground Level Track
-permalink: /railway/ground-level-track
+permalink: /railway/ground-level-track/
 ---
 
 <div class="perex">
