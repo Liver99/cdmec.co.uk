@@ -21,12 +21,28 @@
 
 - title: "Meetings"
   href: "/meetings/"
+  subcategories:
+    - subtitle: "Spring 2016 Program (.pdf)"
+      subhref: "#"
+    - subtitle: "Facebook Events Page"
+      subhref: "http://www.facebook.com/CDMEC/events"
 
 - title: "Parties"
   href: "/parties/"
+  subcategories:
+    - subtitle: "Booking Form (.docx)"
+      subhref: "/#"
 
 - title: "Gallery"
   href: "/gallery/"
+  subcategories:
+    - subtitle: "Facebook Albums"
+      subhref: "https://www.facebook.com/CDMEC/photos_albums"
 
 - title: "Contact"
   href: "/contact/"
+  subcategories:
+    - subtitle: "Email"
+      subhref: "mailto:contact@cdmec.co.uk"
+    - subtitle: "Facebook Page"
+      subhref: "http://www.facebook.com/CDMEC"
