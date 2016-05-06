@@ -26,16 +26,16 @@ As parties are run during public running days on the ground level track, there a
       <table class="table table-bordered">
         <tbody>
           <tr>
-            <td width="50%">1st May</td>
-            <td width="50%">15th May</td>
+            <td width="50%"><s>1st May</s></td>
+            <td width="50%"><s>15th May</s></td>
           </tr>
           <tr>
-            <td>5th June</td>
-            <td>19th June</td>
+            <td><s>5th June</s></td>
+            <td><s>19th June</s></td>
           </tr>
           <tr>
-            <td>10th July</td>
-            <td>24th July</td>
+            <td><s>10th July</s></td>
+            <td><s>24th July</s></td>
           </tr>
           <tr>
             <td><s>18th September</s></td>
@@ -43,7 +43,7 @@ As parties are run during public running days on the ground level track, there a
           </tr>
         </tbody>
       </table>
-      <div class="panel-footer">Last updated at <b>2016-02-05 18:33:23</b>. Availability may have changed since last update. Please contact us for more information.</div>
+      <div class="panel-footer">Last updated at <b>2016-04-24 20:44:24</b>. Availability may have changed since last update. Please contact us for more information.</div>
     </div>
   </div>
   <div class="col-md-3"></div>
