@@ -7,6 +7,10 @@
     border-top: 5px solid #B10000;
     border-bottom: 1px solid #ddd;
     color: #000;
+    > h1 {
+      margin-top:25px;
+      margin-bottom:5px;
+    }
   }
 
   .sub-nav {
