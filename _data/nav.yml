@@ -23,7 +23,7 @@
   href: "/meetings/"
   subcategories:
     - subtitle: "Spring 2016 Program (.pdf)"
-      subhref: "#"
+      subhref: "/files/Spring_Programme_2016.pdf"
     - subtitle: "Facebook Events Page"
       subhref: "http://www.facebook.com/CDMEC/events"
 
@@ -31,7 +31,7 @@
   href: "/parties/"
   subcategories:
     - subtitle: "Booking Form (.docx)"
-      subhref: "/#"
+      subhref: "/files/Party_Booking_Form_2016.docx"
 
 - title: "Gallery"
   href: "/gallery/"

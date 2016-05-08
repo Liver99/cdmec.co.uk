@@ -53,6 +53,6 @@ All monies raised are are for club funds which go in to the running and improvem
 
 ### How to book
 
-The booking form can be downloaded [here](http://chingford-model-engineering.com/files/Party_Booking_Form_2016.docx) as a Microsoft Word .docx file.
+The booking form can be downloaded [here](/files/Party_Booking_Form_2016.docx) as a Microsoft Word .docx file.
 
 Any queries or bookings can be made by emailing the booking form to [parties@cdmec.co.uk](mailto:parties@cdmec.co.uk).
