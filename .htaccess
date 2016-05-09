@@ -1,0 +1,7 @@
+# Redirect everyone but me to public site
+ErrorDocument 403 http://cdmec.co.uk
+Order deny,allow
+Deny from all
+Allow from 82.34.192.131
+
+ErrorDocument 404 /404.html
