@@ -1,0 +1,85 @@
+//---
+//# Only the main Sass file needs front matter (the dashes are enough)
+//---
+//@charset "utf-8";
+
+@font-face {
+    font-family: 'gillsansmt';
+    src: url('../fonts/gillsansmt.eot');
+    src: local('../fonts/gillsansmt'), url('../fonts/gillsansmt.woff') format('woff'), url('../fonts/gillsansmt.ttf') format('truetype');
+}
+
+//= require vendor/bootstrap
+@import "vendor/_bootstrap.scss";
+@import "navbar", "page";
+
+body {
+  background: $body-bg url(asset_path('bg.png')) 0 0 repeat-x;
+  
+  @media (min-width: $screen-sm-min) {
+    padding: 50px 0;
+  }
+}
+.container{
+  background-color:#fff;
+}
+.carousel-col {
+  padding:0px;
+}
+.perex {
+  padding: 15px 0;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+  font-size: 24px;
+  @media (max-width: $screen-xs-max) {
+    font-size:18px;
+    font-weight:500;
+  }
+}
+
+img {
+  &.pull-right{
+    margin: 0px 0px 10px 10px;
+  }
+  &.pull-left{
+    margin: 0px 10px 10px 0px;
+  }
+}
+
+footer {
+  padding: 5px 0;
+  border-top: 1px solid #ddd;
+  margin-top:20px;
+  span.copyright {
+    line-height: 40px;
+    font-family: gillsansmt, "Gill Sans MT";
+    //font-weight:bold;
+  }
+  ul.social-buttons {
+    margin-bottom: 0;
+    li a {
+      display: block;
+      //background-color: #222222;
+      height: 40px;
+      width: 40px;
+      border-radius: 100%;
+      font-size: 20px;
+      line-height: 40px;
+      //color: white;
+      color:$brand-primary;
+      outline: none;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s;
+    }
+  }
+
+  ul.quicklinks {
+    margin-bottom: 0;
+    line-height: 40px;
+    font-family: gillsansmt, "Gill Sans MT";
+    a {
+      color: $brand-primary;
+    }
+  }
+}

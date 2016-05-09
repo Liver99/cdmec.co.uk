@@ -18,3 +18,11 @@ imagesurl: "/images/"
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - jekyll-assets
+
+assets:
+  compress:
+    css:  sass
+    js:   uglifier

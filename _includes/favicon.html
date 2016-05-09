@@ -1,9 +1,9 @@
 {% comment %} https://github.com/audreyr/favicon-cheat-sheet {% endcomment %}
 {% comment %} For Chrome for Android {% endcomment %}
-<link rel="icon" sizes="196x196" href="{{ "/images/favicon/favicon-196.png" | prepend: site.baseurl }}">
+<link rel="icon" sizes="196x196" href="{% asset_path favicon/favicon-196.png %}">
 {% comment %}IE 10 Metro tile icon (Metro equivalent of apple-touch-icon){% endcomment %}
 <meta name="msapplication-TileColor" content="#FFFFFF">
-<meta name="msapplication-TileImage" content="{{ "/images/favicon/favicon-144.png" | prepend: site.baseurl }}">
+<meta name="msapplication-TileImage" content="{% asset_path favicon/favicon-144.png %}">
 {% comment %}IE 11 Tile for Windows 8.1 Start Screen{% endcomment %}
 <meta name="application-name" content="Name">
 <meta name="msapplication-tooltip" content="Tooltip">

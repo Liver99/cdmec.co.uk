@@ -2,3 +2,6 @@ $body-bg:#9F9F9F;
 $navbar-margin-bottom:0px;
 $navbar-height:80px;
 $brand-primary:#B10000;
+
+$link-color: $brand-primary;
+$link-hover-color: darken($link-color, 15%);
