@@ -5,8 +5,7 @@
 
 @font-face {
     font-family: 'gillsansmt';
-    src: url('../fonts/gillsansmt.eot');
-    src: local('../fonts/gillsansmt'), url('../fonts/gillsansmt.woff') format('woff'), url('../fonts/gillsansmt.ttf') format('truetype');
+    src: url(asset_path('gillsansmt.eot')), url(asset_path('gillsansmt.woff')) format('woff'), url(asset_path('gillsansmt.ttf')) format('truetype');
 }
 
 //= require vendor/bootstrap
@@ -15,7 +14,7 @@
 
 body {
   background: $body-bg url(asset_path('bg.png')) 0 0 repeat-x;
-  
+
   @media (min-width: $screen-sm-min) {
     padding: 50px 0;
   }
