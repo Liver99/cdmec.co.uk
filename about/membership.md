@@ -8,7 +8,7 @@ permalink: /about/membership/
   Our club welcomes everyone and anyone, independant of engineering background or experience. Our members enjoy a wide range of benefits as well as making friends.
 </div>
 
-
+<a href="/img/content/membership-01.jpg" data-lightbox="img1"><img src="http://chingford-model-engineering.com/img/content/membership-01.jpg" alt="Public running day" width="350" class="pull-right hidden-xs"></a>
 <h3>Membership Types</h3>
 <ul>
     <li>Apprentices: 10 years old</li>
@@ -23,7 +23,6 @@ permalink: /about/membership/
 <p>We promote Junior membership and run an Apprentice scheme, they are given driver training to enable them to use the club Locomotives that include Steam and Electric powered units and are encouraged to get involved in all forms of club activities. We have several family groups where three generations of one family are members.</p>
 
 <h3>Public Running Days</h3>
-<a href="/img/content/membership-01.jpg" data-lightbox="img1"><img src="http://chingford-model-engineering.com/img/content/membership-01.jpg" alt="Public running day" width="350" class="pull-right hidden-xs"></a>
 <p>The council likes the club to provide train rides on summer Sunday afternoons at Ridgeway Park. As a member you are free to contribute as much or as little as you like so long as you attend and help out a minimum of five or six summer Sunday afternoons (2-5:30pm) a year. There are all sorts of roles - some of which require training, but any kind of help is appreciated. You will be assigned a rota group with dates published at the end of January each year.</p>
 <p>If you are unable to attend a certain date then ask around and swap for a day you can make. As a club this is what we have agreed to do and believe it is the best and fairest way to provide our running obligations. Far from being a burden, public running is one of the most rewarding club activities and the rota system means the club does not suffer from cliques of people who exclude others from certain activities.</p>
 
