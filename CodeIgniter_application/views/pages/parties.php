@@ -19,18 +19,18 @@
 
         <table width="428">
             <tr>
-                <td width="214">1<sup>st</sup> May</td>
-                <td width="214">15<sup>th</sup> May</td>
+                <td width="214" class="line-through">1<sup>st</sup> May</td>
+                <td width="214" class="line-through">15<sup>th</sup> May</td>
 
             </tr>
             <tr>
-                <td>5<sup>th</sup> June</td>
-                <td>19<sup>th</sup> June</td>
+                <td class="line-through">5<sup>th</sup> June</td>
+                <td class="line-through">19<sup>th</sup> June</td>
 
             </tr>
             <tr>
-                <td>10<sup>th</sup> July</td>
-                <td>24<sup>th</sup> July</td>
+                <td class="line-through">10<sup>th</sup> July</td>
+                <td class="line-through">24<sup>th</sup> July</td>
 
             </tr>
             <tr>
@@ -39,7 +39,7 @@
             </tr>
         </table>
 
-        <p>Last updated at <b>2016-02-05 18:33:23</b>. Availability may have changed since last update. Please contact us for more information.</p>
+        <p>Last updated at <b>2016-04-24 20:44:24</b>. Availability may have changed since last update. Please contact us for more information.</p>
         <p>All monies raised are are for club funds which go in to the running and improvement of the clubs facilities.</p>
 
         <h2>How to book</h2>
