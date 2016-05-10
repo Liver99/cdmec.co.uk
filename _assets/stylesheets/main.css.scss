@@ -9,7 +9,8 @@
 }
 
 //= require vendor/bootstrap
-@import "vendor/_bootstrap.scss";
+@import "vendor/bootstrap-sprockets"; // fixes @font-face glyphicons
+@import "vendor/bootstrap";
 @import "navbar", "page";
 
 body {
