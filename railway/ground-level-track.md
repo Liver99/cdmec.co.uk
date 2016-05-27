@@ -5,7 +5,7 @@ permalink: /railway/ground-level-track/
 ---
 
 <div class="perex">
-  C&amp;DMEC runs a 2000ft long 7&frac14;" &amp; 5" dual gauge ground level railway that was completed and opened to the public in 1995.
+  A 2000ft long 7&frac14;" &amp; 5" dual gauge ground level railway that was completed and opened to the public in 1995. Currently undergoing a double track extension with new sidings and carriage shed.
 </div>
 
 <img src="{% asset_path pages/glt-01.jpg %}" alt="Ground Level Track" width="250" class="pull-right hidden-xs">
@@ -14,7 +14,7 @@ Operated from Larkswood Station the track can run both 5 inch and 7&frac14; inch
 
 The club's locomotives for this include 'Coal Fired Steam', 'Electric' and 'Petrol' powered engines.
 
-Due to the track layout with passing loops several trains can be in operation together and it is normal to have two or three trains running on public days. This track is currently undergoing an extension including doubling of track, second signal box and new carrage shed.
+Due to the track layout with passing loops several trains can be in operation together and it is normal to have two or three trains running on public days. This track is currently undergoing an extension including doubling of track, second signal box and new carriage shed.
 
 Completed and opened to the public in 1995, the track is 2000 feet long with more planned, the route normally used on public running days gives a six minute ride.
 
