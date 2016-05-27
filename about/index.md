@@ -10,7 +10,7 @@ permalink: /about/
 
 <img src="{% asset_path pages/about-01.jpg %}" alt="About" width="250" class="pull-right hidden-xs">
 
-<p>The Chingford and District Model Engineering Club is 71 years old. Our members come from all walks of life and do not necessarily have an engineering background. Membership is open to either sex (several of our female members are qualified train drivers) and starts at 10 for Apprentices, 14 for Juniors and 18 years for full membership.</p>
+<p>The Chingford and District Model Engineering Club is {{ site.time | date: '%Y' | minus: 1945 }} years old. Our members come from all walks of life and do not necessarily have an engineering background. Membership is open to either sex (several of our female members are qualified train drivers) and starts at 10 for Apprentices, 14 for Juniors and 18 years for full membership.</p>
 
 <p>The club seeks to promote all forms of model engineering and model making, as shown on our club badge (Boats, Planes, Trains & Static Models).</p>
 
