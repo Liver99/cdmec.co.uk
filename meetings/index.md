@@ -8,7 +8,7 @@ permalink: /meetings/
   Club members can meet every Sunday and Wednesday, as well as other times such as Boxing day, for activities such as talks, special running, and social events.
 </div>
 
-<a href="http://chingford-model-engineering.com/img/content/meetings-01.jpg" data-lightbox="img1"><img src="http://chingford-model-engineering.com/img/content/meetings-01.jpg" alt="Meetings" width="250" class="pull-right hidden-xs"></a>
+<img src="{% asset_path pages/meetings-01.jpg %}" alt="Meetings" width="250" class="pull-right hidden-xs">
 
 Members generally meet informally at the club track every Sunday morning throughout the year and on Wednesday evenings (from 7pm) between May and September at our club track site in the Ridgeway Park, Chingford.
 

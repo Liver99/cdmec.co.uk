@@ -8,7 +8,7 @@ permalink: /parties/
   The committee allocate specific days each year so the railway can be hired out for parties and events. You have full use of our raised track with steam and electric trains, as well as a crew to make your party as enjoyable as it can be.
 </div>
 
-<a href="http://chingford-model-engineering.com/img/content/parties-01.jpg" data-lightbox="img1"><img src="http://chingford-model-engineering.com/img/content/parties-01.jpg" alt="Parties" width="250" class="pull-right hidden-xs"></a>
+<img src="{% asset_path pages/parties-01.jpg %}" alt="Parties" width="250" class="pull-right hidden-xs">
 
 The club is able to run a limited amount of childrens (or adults) birthday parties throughout the year. The package includes train rides on the raised track and is based around Willow Tree Halt Station. Parties are run from 2:30pm to 4:30pm. No limit to numbers or age.
 

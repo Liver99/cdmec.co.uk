@@ -8,7 +8,8 @@ permalink: /about/membership/
   Our club welcomes everyone and anyone, independant of engineering background or experience. Our members enjoy a wide range of benefits as well as making friends.
 </div>
 
-<a href="/img/content/membership-01.jpg" data-lightbox="img1"><img src="http://chingford-model-engineering.com/img/content/membership-01.jpg" alt="Public running day" width="350" class="pull-right hidden-xs"></a>
+<img src="{% asset_path pages/membership-01.jpg %}" alt="Public running day" width="350" class="pull-right hidden-xs">
+
 <h3>Membership Types</h3>
 <ul>
     <li>Apprentices: 10 years old</li>
