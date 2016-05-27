@@ -7,11 +7,19 @@
 
 # Site settings
 title: Chingford & District Model Engineering Club
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+email: webmaster@cdmec.co.uk
+description: >
+  Interested in learning model engineering or getting involved
+  with a miniature steam railway, then join Chingford &amp; District Model
+  Engineering Club.
+keywords: >
+  chingford, and, &amp;, district, model, engineering, club, society,
+  web site, miniature railway, steam railway, steam trains, model engineering,
+  london, UK, north nondon, britain, railway, E4, carriage, wagon, historic,
+  vehicle, clocks, trains, public, train rides, traction engines, static engines,
+  stationery engines, stationery, model making, workshop, engineering club, society,
+  cdmec, cadmec, c&amp;dmec, CDMEC, C&amp;DMEC, Chingford miniature trains,
+  Ridgeway park trains
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://cdmec.co.uk" # the base hostname & protocol for your site
 
