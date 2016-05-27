@@ -9,6 +9,14 @@
     - subtitle: "Committee"
       subhref: "/about/committee"
 
+- title: "Meetings"
+  href: "/meetings/"
+  subcategories:
+    - subtitle: "Summer 2016 Program (.pdf)"
+      subhref: "/files/Summer_Programme_2016.pdf"
+    - subtitle: "Facebook Events Page"
+      subhref: "http://www.facebook.com/CDMEC/events"
+
 - title: "Railway"
   href: "/railway/"
   subcategories:
@@ -18,14 +26,6 @@
       subhref: "/railway/raised-track/"
     - subtitle: "Ground Level Track"
       subhref: "/railway/ground-level-track/"
-
-- title: "Meetings"
-  href: "/meetings/"
-  subcategories:
-    - subtitle: "Summer 2016 Program (.pdf)"
-      subhref: "/files/Summer_Programme_2016.pdf"
-    - subtitle: "Facebook Events Page"
-      subhref: "http://www.facebook.com/CDMEC/events"
 
 - title: "Parties"
   href: "/parties/"
