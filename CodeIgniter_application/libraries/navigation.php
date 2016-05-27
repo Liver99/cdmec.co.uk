@@ -87,8 +87,8 @@ class Navigation {
                 'parent'    =>  0
             ),
                 12 =>    array(
-                    'text'      =>  'Spring 2016 Program (.pdf)',
-                    'link'      =>  base_url('files/Spring_Programme_2016.pdf'),
+                    'text'      =>  'Summer 2016 Program (.pdf)',
+                    'link'      =>  base_url('files/Summer_Programme_2016.pdf'),
                     'attributes' => 'target="_blank"',
                     'show_condition'=>  1,
                     'parent'    =>  11
