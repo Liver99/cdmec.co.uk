@@ -33,11 +33,11 @@
     - subtitle: "Booking Form (.docx)"
       subhref: "/files/Party_Booking_Form_2016.docx"
 
-- title: "Gallery"
-  href: "/gallery/"
-  subcategories:
-    - subtitle: "Facebook Albums"
-      subhref: "https://www.facebook.com/CDMEC/photos_albums"
+#- title: "Gallery"
+#  href: "/gallery/"
+#  subcategories:
+#    - subtitle: "Facebook Albums"
+#      subhref: "https://www.facebook.com/CDMEC/photos_albums"
 
 - title: "Contact"
   href: "/contact/"
