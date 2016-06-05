@@ -53,6 +53,13 @@ All monies raised are are for club funds which go in to the running and improvem
 
 ### How to book
 
-The booking form can be downloaded [here](/files/Party_Booking_Form_2016.docx) as a Microsoft Word .docx file.
+<div id="recaptcha">
+  <p>Please complete the CAPTCHA to see how to book.</p>
+  <div class="g-recaptcha" data-sitekey="6Lf-2SETAAAAAMzjRFT8WV_TnKC10dV_MRRyZtff" data-callback="dispEmail"></div>
+</div>
 
-Any queries or bookings can be made by emailing the booking form to [parties@cdmec.co.uk](mailto:parties@cdmec.co.uk).
+<div id="recaptcha-hidden" class="hidden">
+  <p>The booking form can be downloaded <a href="/files/Party_Booking_Form_2016.docx">here</a> as a Microsoft Word .docx file.</p>
+
+  <p>Any queries or bookings can be made by emailing the booking form to <a  href="mailto:&#112;&#097;&#114;&#116;&#105;&#101;&#115;&#064;&#099;&#100;&#109;&#101;&#099;&#046;&#099;&#111;&#046;&#117;&#107;">&#112;&#097;&#114;&#116;&#105;&#101;&#115;&#064;&#099;&#100;&#109;&#101;&#099;&#046;&#099;&#111;&#046;&#117;&#107;</a>.</p>
+</div>

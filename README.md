@@ -69,6 +69,10 @@ Pre-minified [Bootstrap](http://getbootstrap.com/) placed in `_assets/javascript
 
 See [favicon-cheat-sheet](https://github.com/audreyr/favicon-cheat-sheet).
 
+## Email Addresses
+
+To try and tackle spam they're only visible upon completion of a [No CAPTCHA reCAPTCHA](https://www.google.com/recaptcha/) and are encoded using [HTML Character Entities](http://wbwip.com/wbw/emailencoder.html).
+By no means is this full proof and should be improved.
 
 ## Downloadable files
 
