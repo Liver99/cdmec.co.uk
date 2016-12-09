@@ -27,12 +27,6 @@
     - subtitle: "Ground Level Track"
       subhref: "/railway/ground-level-track/"
 
-- title: "Parties"
-  href: "/parties/"
-  subcategories:
-    - subtitle: "Booking Form (.docx)"
-      subhref: "/files/Party_Booking_Form_2016.docx"
-
 #- title: "Gallery"
 #  href: "/gallery/"
 #  subcategories:

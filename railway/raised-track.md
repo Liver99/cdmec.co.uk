@@ -12,7 +12,7 @@ permalink: /railway/raised-track/
 
 This track is dual gauge (3½ & 5 inch) and is 1000 feet long, equipped with fully automatic colour signalling, which enables several trains to be on the track together, on public running Sundays there can be as many as three trains running at the same time.
 
-Ridgeway Station is the normal operating location for this track, but when the [Ground Level Track](/railway/ground-level-track) is also in use, Willow Tree Halt is used to avoid members of the public having to cross the working Ground Level line to get to the station platform. Such an event can occur during special days such a Chingford Day or [private parties](/parties).
+Ridgeway Station is the normal operating location for this track, but when the [Ground Level Track](/railway/ground-level-track) is also in use, Willow Tree Halt is used to avoid members of the public having to cross the working Ground Level line to get to the station platform. Such an event can occur during special days such a Chingford Day.
 
 Club's locomotives for this track include 'Coal Fired Steam', 'Petrol' and 'Electric' powered engines.
 
