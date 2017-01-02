@@ -1,11 +1,13 @@
 .row {
   .page-header {
-    margin: 0;
+    // override bootstrap: /bootstrap/_type.scss
     padding-bottom: 20px;
+    margin: 0;
+    border-bottom: 1px solid #ddd;
+
     font: 270%/1 "arial",sans-serif;
     letter-spacing: -1px;
     border-top: 5px solid #B10000;
-    border-bottom: 1px solid #ddd;
     color: #000;
     > h1 {
       margin-top:25px;
@@ -14,6 +16,7 @@
   }
 
   .sub-nav {
+    height: 51px;
     padding-top: 15px;
     padding-bottom:15px;
     border-bottom: 1px solid #ddd;

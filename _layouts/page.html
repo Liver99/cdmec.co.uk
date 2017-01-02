@@ -1,31 +1,24 @@
 ---
 layout: default
 ---
+{% assign top-page = page.url | split:'/' %}
+{% assign top-page = top-page[1] | prepend:'/' | append:'/' %}
+{% assign page_nav_data = site.data.nav | where: "href", top-page | first %}
+
 <div class="row">
   <div class="col-xs-12 page-header">
     <h1>{{ page.title }}</h1>
   </div>
 </div>
+{% if page_nav_data.subcategories != null  %}
 <div class="row">
   <div class="col-xs-12 sub-nav">
-    {% comment %}Get array of url{% endcomment %}
-    {% assign top-page = page.url | remove_first:'/' | split:'/' %}
-
-    {% for nav in site.data.nav %}
-      {% assign nav-top-page = nav.href | remove_first:'/' | split:'/' %}
-      {% if top-page.first == nav-top-page.first %}
-        {% if nav.subcategories != null %}
-          {% for subcategory in nav.subcategories %}
-            {% assign sub-nav-top-page = subcategory.subhref | remove_first:'/' | split:'/' %}
-            <a {% if top-page.last == sub-nav-top-page.last %} class="active" {% endif %} href="{{ site.baseurl }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a>
-          {% endfor %}
-        {% else %}
-          &nbsp;
-        {% endif %}
-      {% endif %}
+    {% for item in page_nav_data.subcategories %}
+      <a {% if page.url == item.subhref %} class="active" {% endif %} href="{{ site.baseurl }}{{ item.subhref }}">{{ item.subtitle }}</a>
     {% endfor %}
   </div>
 </div>
+{% endif %}
 <div class="row">
   <div class="col-xs-12 page-content">
     {{ content }}

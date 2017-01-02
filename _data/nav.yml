@@ -5,9 +5,9 @@
   href: "/about/"
   subcategories:
     - subtitle: "Membership"
-      subhref: "/about/membership"
+      subhref: "/about/membership/"
     - subtitle: "Committee"
-      subhref: "/about/committee"
+      subhref: "/about/committee/"
 
 - title: "Meetings"
   href: "/meetings/"
