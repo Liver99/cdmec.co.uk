@@ -1,8 +1,12 @@
 ---
-layout: default
+layout: page
 title: Parties
 permalink: /parties/
 ---
+
+<div class="perex">
+  Committee announcement:
+</div>
 
 It is with great regret that the Committee have had to make the decision to suspend the running of birthday parties during the 2017 season. This is primarily down to our membership numbers falling in recent years and we felt that we would no longer be able to run the parties in a safe manner with the limited members we have. This decision been a difficult one to make as we know the enjoyment that this brings to the public and to the membership however the safety of all those involved has to be our number one priority.
 
