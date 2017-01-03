@@ -1,3 +1,8 @@
+SSLOptions +StrictRequire
+SSLRequireSSL
+SSLRequire %{HTTP_HOST} eq "chingford-model-engineering.com"
+ErrorDocument 403 https://chingford-model-engineering.com
+
 RewriteEngine On
 RewriteBase /
 RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
