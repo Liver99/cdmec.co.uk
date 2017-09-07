@@ -26,7 +26,7 @@ url: "http://cdmec.co.uk" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 
-gems:
+plugins:
   - jekyll-assets
 
 assets:
