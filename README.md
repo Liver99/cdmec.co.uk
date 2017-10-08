@@ -77,3 +77,9 @@ By no means is this full proof and should be improved.
 ## Downloadable files
 
 Downloadable files should be placed in `/files`.
+
+## Analytics
+
+Google Analytics: [https://analytics.google.com/](https://analytics.google.com/)
+
+Log in using CDMEC Webmaster email address
