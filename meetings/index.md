@@ -5,7 +5,7 @@ permalink: /meetings/
 ---
 
 <div class="perex">
-  Club members can meet every Sunday and Wednesday, as well as other times such as Boxing day, for activities such as talks, special running, and social events..
+  Club members can meet every Sunday and Wednesday, as well as other times such as Boxing day, for activities such as talks, special running, and social events.
 </div>
 
 <img src="{% asset_path pages/meetings-01.jpg %}" alt="Meetings" width="250" class="pull-right hidden-xs">
