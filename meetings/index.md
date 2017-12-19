@@ -16,4 +16,4 @@ The track meetings are informal and include general maintenance of the site trac
 
 As we need qualified drivers to operate the Locomotives on our public running days, Wednesday Evenings are also used for Driver Training.
 
-From September to May our Wednesday Night meetings are held at St. Edmunds Church Hall, Larkswood Road, Chingford, from 7.30pm until 9.30pm. These meetings are slightly more formal, with film shows, lectures, demonstrations and discussions on a wide variety of subjects.
+From September to May our Wednesday Night meetings are held at St. Edmunds Church Hall, Larkswood Road, Chingford, from 7.30pm until 9pm. These meetings are slightly more formal, with film shows, lectures, demonstrations and discussions on a wide variety of subjects.
